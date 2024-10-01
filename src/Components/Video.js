@@ -35,7 +35,7 @@ const Video = () => {
   return (
     <HeroContainer>
       <VideoBackground
-        src="https://www.w3schools.com/html/mov_bbb.mp4" // Placeholder video URL
+        src="/video.mp4" // Video is now in the public folder
         autoPlay
         muted
         loop
