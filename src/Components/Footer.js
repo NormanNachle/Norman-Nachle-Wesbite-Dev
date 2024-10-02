@@ -26,9 +26,9 @@ const SocialMediaLinks = styled.div`
 const Footer = () => {
   return (
     <FooterContainer>
-      <div>Contact us at: normannachle.com</div>
       <SocialMediaLinks>
-       
+        <div>Contact us at: <a href="mailto:normannachle@gmail.com">normannachle@gmail.com</a></div>
+        <div><a></a></div>
         <a href="https://www.instagram.com/normannachle/?hl=en">Instagram</a>
         <a href="https://www.tiktok.com/@normannachle">TikTok</a>
       </SocialMediaLinks>
