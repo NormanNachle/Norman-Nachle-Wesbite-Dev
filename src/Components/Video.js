@@ -40,13 +40,6 @@ const Video = () => {
         muted
         loop
       />
-      <HeroContent>
-        <h1>Farming as a Passione</h1>
-        <p>
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit, sed quia non numquam eius.
-        </p>
-      </HeroContent>
     </HeroContainer>
   );
 };
