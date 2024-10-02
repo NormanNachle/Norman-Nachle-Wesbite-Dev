@@ -28,9 +28,9 @@ const Footer = () => {
     <FooterContainer>
       <div>Contact us at: normannachle.com</div>
       <SocialMediaLinks>
-        <a href="#facebook">Facebook</a>
-        <a href="#instagram">Instagram</a>
-        <a href="#twitter">Twitter</a>
+       
+        <a href="https://www.instagram.com/normannachle/?hl=en">Instagram</a>
+        <a href="https://www.tiktok.com/@normannachle">TikTok</a>
       </SocialMediaLinks>
     </FooterContainer>
   );
