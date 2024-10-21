@@ -1,7 +1,16 @@
 import React from 'react';
+import Director from '../Components/Director';
 
 const Contact = () => {
-  return <div>Contact Page - Content Coming Soon</div>;
-};
+  return (
+    <div>
 
+      <Director/>
+      <Director/>
+      <Director/>
+      
+    </div>
+    
+  )
+}
 export default Contact;

@@ -7,7 +7,7 @@ const Nav = styled.nav`
   position: fixed; /* Fixes the navbar at the top */
   width: 100%; /* Full width */
   background: rgba(0, 80, 95, 0.7); /* Translucent color */
-  padding: 1rem;
+  padding: 1.5rem; /* Increased vertical padding for a taller navbar */
   display: flex;
   align-items: center;
   backdrop-filter: blur(5px); /* Optional: adds a blur effect behind the navbar */
@@ -15,17 +15,18 @@ const Nav = styled.nav`
 `;
 
 const Logo = styled.div`
-  font-family: 'TT Ramillas', sans-serif; /* Use TT Ramillas font */
+  font-family: 'Hatton', sans-serif; /* Use Hatton font */
   color: white; /* Change color for better contrast */
-  font-size: 1.5rem;
+  font-size: 1.8rem; /* Slightly larger font size for the logo */
   font-weight: bold;
   margin-right: auto;
 `;
 
 const NavLink = styled(Link)`
-  margin: 0 1rem;
+  margin: 0 2rem; /* Increased horizontal margin for more space between links */
   color: white; /* Change color for better contrast */
   text-decoration: none;
+  font-size: 1.2rem; /* Adjust font size for better readability */
 
   &:hover {
     color: lightgreen; /* Change hover color as needed */
@@ -35,9 +36,7 @@ const NavLink = styled(Link)`
 const NavBar = () => {
   return (
     <Nav>
-    
       <Logo>Norman Nachle</Logo> {/* Updated to display the logo text */}
-    
       <NavLink to="/">Home</NavLink>
       <NavLink to="/aboutus">About Us</NavLink>
       <DropdownMenu title="Dropdown">
