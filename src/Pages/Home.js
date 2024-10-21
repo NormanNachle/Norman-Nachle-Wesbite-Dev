@@ -4,9 +4,11 @@ import Video from '../Components/Video';
 import '../App.css';
 
 
+
 const Home = () => {
   return (
     <div>
+
       <div className="background-image">
       </div>
       <div style={{
@@ -32,29 +34,35 @@ const Home = () => {
        
    
     
-    <div style={{ backgroundColor: '#C7A45E', color: 'black', padding: '20px', textAlign: 'center' }}>
+    <div style={{ backgroundColor: '#C7A45E', color: 'white', padding: '20px', textAlign: 'center' }}>
     <img src="path/to/your/image.jpg" alt="Description" style={{ maxWidth: '100%', height: 'auto', marginBottom: '20px' }} />
     
-    
-    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-        <div style={{ margin: '0 15px' }}>
-            <strong>Title 1</strong>
-            <p>Description 1</p>
-        </div>
-        <div style={{ margin: '0 15px' }}>
-            <strong>Title 2</strong>
-            <p>Description 2</p>
-        </div>
-        <div style={{ margin: '0 15px' }}>
-            <strong>Title 3</strong>
-            <p>Description 3</p>
-        </div>
-        <div style={{ margin: '0 15px' }}>
-            <strong>Title 4</strong>
-            <p>Description 4</p>
-        </div>
-   
+    <div>
+        <strong style= {{fontWeight:600, fontSize: '2.4rem', fontFamily: 'TT Ramillas, serif'}}>Norman Nachle 2025
+        </strong>
+    </div>
+    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '3rem', fontFamily: 'Hatton, sans-serif' }}>
+    <div style={{ margin: '0 6rem' }}> {/* Margin set to 2rem for spacing */}
+        <strong style={{ fontSize: '1.563rem', fontFamily: 'TT Ramillas, serif', fontWeight: 400 }}>Location</strong>
+        <p style={{ fontSize: '1rem', fontWeight: 100 }}>Norman, Oklahoma</p>
+    </div>
+
+    <div style={{ margin: '0 6rem' }}> {/* Margin set to 2rem for spacing */}
+        <strong style={{ fontSize: '1.563rem', fontFamily: 'TT Ramillas, serif', fontWeight: 400 }}>Date</strong>
+        <p style={{ fontSize: '1rem', fontWeight: 100 }}>February 1st 2025</p>
+    </div>
+
+    <div style={{ margin: '0 6rem' }}> {/* Margin set to 2rem for spacing */}
+        <strong style={{ fontSize: '1.563rem', fontFamily: 'TT Ramillas, serif', fontWeight: 400 }}>Time</strong>
+        <p style={{ fontSize: '1rem', fontWeight: 100 }}>TBD</p>
+    </div>
+
+    <div style={{ margin: '0 6rem' }}> {/* Margin set to 2rem for spacing */}
+        <strong style={{ fontSize: '1.563rem', fontFamily: 'TT Ramillas, serif', fontWeight: 400 }}>Tickets</strong>
+        <p style={{ fontSize: '1rem', fontWeight: 100 }}>Not Out Yet</p>
+    </div>
 </div>
+
 
 </div>
 

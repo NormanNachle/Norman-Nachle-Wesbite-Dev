@@ -5,12 +5,12 @@ import DropdownMenu from './DropdownMenu';
 
 const Nav = styled.nav`
   position: fixed; /* Fixes the navbar at the top */
+  top: 0; /* Ensure the navbar stays at the top */
   width: 100%; /* Full width */
   background: rgba(0, 80, 95, 0.7); /* Translucent color */
   padding: 1.5rem; /* Increased vertical padding for a taller navbar */
   display: flex;
   align-items: center;
-  backdrop-filter: blur(5px); /* Optional: adds a blur effect behind the navbar */
   z-index: 1000; /* Ensures navbar is above other elements */
 `;
 
@@ -36,7 +36,7 @@ const NavLink = styled(Link)`
 const NavBar = () => {
   return (
     <Nav>
-      <Logo>Norman Nachle</Logo> {/* Updated to display the logo text */}
+      <Logo>Norman Nachle</Logo>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/aboutus">About Us</NavLink>
       <DropdownMenu title="Dropdown">

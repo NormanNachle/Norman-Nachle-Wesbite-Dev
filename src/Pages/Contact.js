@@ -8,7 +8,7 @@ const Contact = () => {
       <Director/>
       <Director/>
       <Director/>
-      
+
     </div>
     
   )

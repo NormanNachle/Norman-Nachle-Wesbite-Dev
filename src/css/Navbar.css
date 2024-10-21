@@ -20,20 +20,3 @@
     text-decoration: none;
 }
 
-@font-face {
-    font-family: 'TT Ramillas';
-    src: url('./fonts/TTRamillas-Regular.woff2') format('woff2'),
-         url('./fonts/TTRamillas-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Hatton';
-    src: url('./fonts/Hatton-Regular.woff2') format('woff2'),
-         url('./fonts/Hatton-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-  
