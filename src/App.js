@@ -8,10 +8,13 @@ import Testimonials from './Pages/Testimonials';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
+import './App.css'; 
 
 function App() {
   return (
     <Router>
+    <div className="app">
+    
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,6 +25,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         {/* Add routes for dropdown submenu if needed */}
       </Routes>
+      
+
+      
+      </div>
       <Footer />
     </Router>
   );

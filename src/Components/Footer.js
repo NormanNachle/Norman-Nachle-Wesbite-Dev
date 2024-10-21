@@ -1,28 +1,23 @@
-// components/Footer.js
+// src/Footer.js
 import React from 'react';
-import styled from 'styled-components';
+import '../css/Footer.css'; // Import CSS for styling
 
-const FooterContainer = styled.footer`
-  background: white;
-  padding: 1rem;
-  text-align: center;
-  border-top: 1px solid #ddd;
-`;
+const Footer = () => {
+    return (
+        <footer className="footer">
+            <div className="footer-content">
+            <div>Contact us at: <a href="mailto:normannachle@gmail.com">normannachle@gmail.com</a></div>
+            <a href="https://www.instagram.com/normannachle/?hl=en">Instagram</a>
+            <a href="https://www.tiktok.com/@normannachle">TikTok</a>
+                <a href="mailto:your-email@example.com">Email Us</a>
+            </div>
+        </footer>
+    );
+};
 
-const SocialMediaLinks = styled.div`
-  margin-top: 0.5rem;
+export default Footer;
 
-  a {
-    margin: 0 0.5rem;
-    color: black;
-    text-decoration: none;
-
-    &:hover {
-      color: green;
-    }
-  }
-`;
-
+/*
 const Footer = () => {
   return (
     <FooterContainer>
@@ -37,3 +32,4 @@ const Footer = () => {
 };
 
 export default Footer;
+*/
