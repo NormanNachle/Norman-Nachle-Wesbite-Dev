@@ -32,13 +32,13 @@ const NavBar = () => {
     <Nav>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/aboutus">About Us</NavLink>
-      <NavLink to="/services">Our Services</NavLink>
-      <NavLink to="/testimonials">Testimonials</NavLink>
-      <NavLink to="/blog">Blog</NavLink>
       <DropdownMenu title="Dropdown">
         {/* Add submenu items here */}
-        <NavLink to="/submenu1">Submenu 1</NavLink>
-        <NavLink to="/submenu2">Submenu 2</NavLink>
+        <NavLink to="/dancers">Dancers</NavLink>
+        <NavLink to="/judges">Judges</NavLink>
+        <NavLink to="/students">Students</NavLink>
+        <NavLink to="/sponsors">Sponsors</NavLink>
+        
       </DropdownMenu>
       <NavLink to="/contact">Contact</NavLink>
     </Nav>

@@ -9,7 +9,6 @@ const Footer = () => {
             <div>Contact us at: <a href="mailto:normannachle@gmail.com">normannachle@gmail.com</a></div>
             <a href="https://www.instagram.com/normannachle/?hl=en">Instagram</a>
             <a href="https://www.tiktok.com/@normannachle">TikTok</a>
-                <a href="mailto:your-email@example.com">Email Us</a>
             </div>
         </footer>
     );
