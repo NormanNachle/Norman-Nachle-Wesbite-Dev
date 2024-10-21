@@ -9,12 +9,13 @@ const Dropdown = styled.div`
 const Dropbtn = styled.div`
   margin: 0 1rem;
   cursor: pointer;
-  color: black;
+  color: white;
 
   &:hover {
     color: green;
   }
 `;
+
 
 const DropdownContent = styled.div`
   display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
