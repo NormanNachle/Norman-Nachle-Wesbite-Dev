@@ -11,7 +11,7 @@ const Directors = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     width: '100%',
-    height: '400px',
+    height: '75vh',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
