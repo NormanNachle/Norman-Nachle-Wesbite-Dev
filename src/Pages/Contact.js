@@ -1,14 +1,13 @@
 import React from 'react';
-import Director from '../Components/Director';
+import Directors from '../Components/Directors';
+
 
 const Contact = () => {
   return (
     <div>
-
-      <Director/>
-      <Director/>
-      <Director/>
-
+      <Directors/>
+      
+     
     </div>
     
   )
