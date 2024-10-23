@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const Dropdown = styled.div`
   position: relative;
   display: inline-block;
+  font-size: 1.2rem;
 `;
 
 const Dropbtn = styled.div`
@@ -12,7 +13,7 @@ const Dropbtn = styled.div`
   color: white;
 
   &:hover {
-    color: green;
+    color: lightgreen;
   }
 `;
 
